@@ -16,5 +16,5 @@ Features:
 
 Feel free to customize and expand upon this documentation according to your preferences and the specifics of your project
 
-- 
+
 
