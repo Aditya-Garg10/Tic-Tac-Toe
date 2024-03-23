@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: newfont;
+    src: url(RobotoMono-VariableFont_wght.woff2);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    font-family: newfont;
+    position: relative;
+    background-color: #b6b7be;
+    
+}
+
+.container{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 630px;
+   gap: 40px;
+   align-items: center;
+   justify-content: center;
+}
+
+.container h3{
+    font-size: 2.5rem;
+    font-family: newfont;
+
+}
+
+.game_page{
+    display: flex;
+    height: 240px;
+    gap: 0px;
+    object-fit: contain;
+    width: 300px;
+    background-color: #252222;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 20px 170px 20px;
+    
+}
+
+
+.parent {
+    height: 80px;
+    width: 80px;
+    background-color: cornsilk;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.parent:hover{
+    cursor: pointer;
+}
+
+#box1 {
+border-bottom: 2px solid black;
+border-right: 2px solid black;
+display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        color: black;
+}
+#box2 {
+border-bottom: 2px solid black;
+border-right: 2px solid black;
+display: flex;
+color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+}
+#box3 {
+    color: black;
+    border-bottom: 2px solid black;
+    display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+}
+#box4 {
+    color: black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+    }
+    #box5 {
+        color: black;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    }
+    #box6 {
+        color: black;
+        border-bottom: 2px solid black;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+    }
+    #box7 {
+        color: black;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+    border-right: 2px solid black;
+    }
+    #box8 {
+        color: black;
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        
+    border-right: 2px solid black;
+    }
+#box9 {
+    color: black;
+    display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+}
+
+
+.message {
+    margin-top: 20px;
+    height: 50px;
+    background-color: cornsilk;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message p{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: newfont;
+}
+
+
+.win-msg{
+    margin-top: 20px;
+    height: 50px;
+    width: 230px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: newfont;
+    color: #ffffff;
+}
+
+
